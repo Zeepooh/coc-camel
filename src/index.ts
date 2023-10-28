@@ -22,7 +22,7 @@ export async function activate(context: ExtensionContext): Promise<void> {
 
     const camells_Jar = {
                 name: 'camel-lsp-server',
-                version: '1.5.0',
+                version: '1.9.1',
                 remote_Path: 'https://repo1.maven.org/maven2/com/github/camel-tooling/camel-lsp-server/',
                 local_Path: '/opt',
                 suffix: '.jar'
